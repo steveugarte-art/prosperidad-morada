@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROSPERIDAD-MORADA - Únete a Omnilife como Empresario Independiente</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #6a1b9a;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            background-color: #ab47bc;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 40px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        .hero {
+            background-color: #e1bee7;
+            text-align: center;
+            padding: 60px 20px;
+        }
+        .hero h1 {
+            color: #6a1b9a;
+        }
+        .hero button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+        .hero button:hover {
+            background-color: #4a148c;
+        }
+        .testimonios-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .testimonio-card {
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+            overflow: hidden;
+            text-align: center;
+        }
+        .testimonio-card iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+        }
+        .testimonio-card .info {
+            padding: 15px;
+        }
+        .testimonio-card h3 {
+            color: #6a1b9a;
+            margin: 10px 0;
+            font-size: 1.2em;
+        }
+        .testimonio-card p {
+            font-style: italic;
+            color: #555;
+            margin: 0 0 10px;
+        }
+        .testimonio-card .autor {
+            font-weight: bold;
+            color: #4a148c;
+        }
+        form {
+            background-color: white;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        form label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+        }
+        form input, form select {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-sizing: border-box;
+        }
+        form button {
+            background-color: #6a1b9a;
+            color: white;
+            border: none;
+            padding: 15px;
+            width: 100%;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        form button:hover {
+            background-color: #4a148c;
+        }
+        footer {
+            background-color: #6a1b9a;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+        @media (max-width: 768px) {
+            section {
+                padding: 30px 15px;
+            }
+            .testimonio-card iframe {
+                height: 180px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>PROSPERIDAD-MORADA</h1>
+        <p>Tu puerta a la independencia financiera con Omnilife</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#sobre">Sobre Omnilife</a>
+        <a href="#testimonios">Testimonios</a>
+        <a href="#registro">Registro</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <section id="inicio" class="hero">
+        <h1>¡Conviértete en Empresario Independiente con Omnilife!</h1>
+        <p>Descubre una oportunidad única para generar ingresos desde cualquier parte del mundo. Únete a nuestra red global de emprendedores y clientes satisfechos.</p>
+        <button onclick="document.getElementById('registro').scrollIntoView();">Regístrate Ahora</button>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre Omnilife</h2>
+        <p>Omnilife es una empresa líder en suplementos nutricionales y productos de bienestar, con presencia en más de 20 países. Como empresario independiente, podrás distribuir productos de calidad, construir tu equipo y disfrutar de comisiones atractivas.</p>
+        <ul>
+            <li>Productos naturales y certificados</li>
+            <li>Oportunidades de crecimiento ilimitadas</li>
+            <li>Soporte y capacitación constante</li>
+            <li>Registro disponible para todo el mundo</li>
+        </ul>
+    </section>
+
+    <section id="testimonios">
+        <h2>Testimonios Reales de Empresarios Independientes</h2>
+        <p>Mira estas historias auténticas de personas que transformaron su vida gracias al negocio Omnilife. ¡Ellos empezaron igual que tú y hoy disfrutan de libertad financiera, viajes y éxito!</p>
+        
+        <div class="testimonios-grid">
+            <div class="testimonio-card">
+                <iframe src="https://www.youtube.com/embed/hefgPP6Vhh0" title="Testimonios Empresarios Omnilife - Viaje Dubái" allowfullscreen></iframe>
+                <div class="info">
+                    <h3>Testimonios de Empresarios en Viaje Internacional Dubái</h3>
+                    <p>Empresarios comparten su alegría y resultados al alcanzar viajes de incentivo con Omnilife.</p>
+                    <div class="autor">- Varios Empresarios Independientes</div>
+                </div>
+            </div>
+
+            <div class="testimonio-card">
+                <iframe src="https://www.youtube.com/embed/ai22QoKiFHQ" title="Historia de Éxito - Jacinto Muñoz" allowfullscreen></iframe>
+                <div class="info">
+                    <h3>Así Empezó Mi Historia de Éxito - Jacinto Muñoz</h3>
+                    <p>Un empresario cuenta cómo inició y creció en Omnilife hasta lograr independencia financiera.</p>
+                    <div class="autor">- Jacinto Muñoz, Empresario Internacional</div>
+                </div>
+            </div>
+
+            <div class="testimonio-card">
+                <iframe src="https://www.youtube.com/embed/sCewDM8d0ro" title="Mini Junta con Ignacio Velandia - Diamante" allowfullscreen></iframe>
+                <div class="info">
+                    <h3>Mini Junta de Oportunidad - Ignacio Velandia (Diamante)</h3>
+                    <p>Testimonio y capacitación de un empresario de alto nivel compartiendo claves del éxito.</p>
+                    <div class="autor">- Ignacio Velandia, Empresario Diamante</div>
+                </div>
+            </div>
+
+            <div class="testimonio-card">
+                <iframe src="https://www.youtube.com/embed/LoMPpvO_B1U" title="El Arranque de Negocio - Roque Jasso" allowfullscreen></iframe>
+                <div class="info">
+                    <h3>El Arranque de Negocio - Roque Jasso</h3>
+                    <p>Consejos inspiradores sobre cómo empezar con el corazón y construir un negocio próspero.</p>
+                    <div class="autor">- Roque Jasso, Empresario Independiente</div>
+                </div>
+            </div>
+        </div>
+
+        <p style="text-align: center; margin-top: 30px; font-style: italic;">
+            Estos videos son de fuentes públicas en YouTube. Para más historias, visita el canal oficial de Omnilife o contacta directamente.
+        </p>
+    </section>
+
+    <section id="registro">
+        <h2>Registro para Empresarios y Clientes</h2>
+        <p>Completa el formulario para unirte. Proceso simple, seguro y disponible en todo el mundo.</p>
+        <form id="registroForm" onsubmit="registrarUsuario(event)">
+            <label for="nombre">Nombre Completo:</label>
+            <input type="text" id="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" required>
+
+            <label for="pais">País:</label>
+            <select id="pais" required>
+                <option value="">Selecciona tu país</option>
+                <option value="Argentina">Argentina</option>
+                <option value="Bolivia">Bolivia</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Chile">Chile</option>
+                <option value="Colombia">Colombia</option>
+                <option value="España">España</option>
+                <option value="Estados Unidos">Estados Unidos</option>
+                <option value="México">México</option>
+                <option value="Perú">Perú</option>
+                <option value="Otro">Otro</option>
+            </select>
+
+            <label for="tipo">Tipo de Registro:</label>
+            <select id="tipo" required>
+                <option value="">Selecciona</option>
+                <option value="empresario">Empresario Independiente</option>
+                <option value="cliente">Cliente</option>
+            </select>
+
+            <label for="mensaje">Mensaje Opcional:</label>
+            <input type="text" id="mensaje" placeholder="¿Cómo nos conociste?">
+
+            <button type="submit">Enviar Registro</button>
+        </form>
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¿Dudas? Escríbenos a: info@prosperidad-morada.com</p>
+        <p>Síguenos en redes para más testimonios e inspiración.</p>
+    </section>
+
+    <footer>
+        <p>© 2026 PROSPERIDAD-MORADA. Todos los derechos reservados. | Independiente de Omnilife</p>
+    </footer>
+
+    <script>
+        function registrarUsuario(event) {
+            event.preventDefault();
+            const nombre = document.getElementById('nombre').value;
+            const email = document.getElementById('email').value;
+            const pais = document.getElementById('pais').value;
+            const tipo = document.getElementById('tipo').value;
+
+            if (nombre && email && pais && tipo) {
+                alert(`¡Gracias, ${nombre}! Hemos recibido tu registro como ${tipo} en ${pais}. Pronto te contactaremos con los siguientes pasos.`);
+            } else {
+                alert('Por favor completa los campos requeridos.');
+            }
+        }
+    </script>
+
+</body>
+</html>
